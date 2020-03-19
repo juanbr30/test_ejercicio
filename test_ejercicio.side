@@ -1,0 +1,91 @@
+{
+  "id": "9284e9bc-3e6a-4056-9447-c21c7c5eff7c",
+  "version": "2.0",
+  "name": "ejercicio",
+  "url": "https://www.redalyc.org",
+  "tests": [{
+    "id": "ee9b5468-39aa-4b8e-abc1-22d4360e1e5d",
+    "name": "el poder prueba ",
+    "commands": [{
+      "id": "c863796e-7f36-4ddf-a4ec-920e9cd35b3f",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "832f77b7-75e1-4d36-a6c5-74fb0dd6923d",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1853x1025",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3aa883aa-69ff-4d8e-bdac-647bd39d22b0",
+      "comment": "",
+      "command": "click",
+      "target": "id=input-articulo",
+      "targets": [
+        ["id=input-articulo", "id"],
+        ["name=input-articulo", "name"],
+        ["css=#input-articulo", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "2d24aa17-b617-4deb-8e73-f345d9d5712c",
+      "comment": "",
+      "command": "click",
+      "target": "id=input-articulo",
+      "targets": [
+        ["id=input-articulo", "id"],
+        ["name=input-articulo", "name"],
+        ["css=#input-articulo", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "5fc01b99-ac64-44d6-b068-036d56efcc44",
+      "comment": "",
+      "command": "type",
+      "target": "id=input-articulo",
+      "targets": [
+        ["id=input-articulo", "id"],
+        ["name=input-articulo", "name"],
+        ["css=#input-articulo", "css:finder"]
+      ],
+      "value": "el poder del saber"
+    }, {
+      "id": "0f8c1588-3c49-4f50-8eed-c5799b43ec54",
+      "comment": "",
+      "command": "click",
+      "target": "id=boton-buscar-articulo",
+      "targets": [
+        ["id=boton-buscar-articulo", "id"],
+        ["name=boton-buscar-articulo", "name"],
+        ["css=#boton-buscar-articulo", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "d0ecc501-6d85-4e7e-8114-a79aac3c59b6",
+      "comment": "",
+      "command": "click",
+      "target": "css=.contentcard:nth-child(1) .title > .ng-binding",
+      "targets": [
+        ["css=.contentcard:nth-child(1) .title > .ng-binding", "css:finder"],
+        ["xpath=//div[@id='contenido']/div[4]/div/div/div/p/a/span/b", "xpath:idRelative"],
+        ["xpath=//a/span/b", "xpath:position"],
+        ["xpath=//b[contains(.,'Evaluation of wood sorption models for high temperatures')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "33d12073-7afb-4da0-a4d9-147feb514546",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["ee9b5468-39aa-4b8e-abc1-22d4360e1e5d"]
+  }],
+  "urls": ["https://www.redalyc.org/"],
+  "plugins": []
+}
